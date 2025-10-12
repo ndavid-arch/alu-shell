@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# displaying best school but on the 4th and 8th place display something different 
+
+count=1
+
+while [ $count -le 10 ]; do
+if [ $count -eq 4 ]; then 
+echo "bad luck"
+elif [ $count -eq 8 ]; then
+echo "good luck"
+else 
+echo "Best School"
+fi
+  ((count++))
+done
