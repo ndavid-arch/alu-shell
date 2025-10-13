@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Description: Kills the 7-highlander process
+
+# Find the PID(s) of 7-highlander and kill them
+pgrep -f 7-highlander | xargs kill
